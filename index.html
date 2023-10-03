@@ -4,12 +4,40 @@
   <meta charset="UTF-8">
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto+Mono&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/src/styles/main.css">
   <title>Countdown Live in Progress</title>
 </head>
-<body>
-  <h1 class="text-3xl font-bold text-blue-300 underline">Countdown Live in Progress</h1>
+<body class="bg-cover flex justify-center">
+  <main class="container m-auto px-72 max-xl:px-0 absolute top-2/4 lef-2/4 -translate-y-2/4">
+    <section class="w-full">
+      <h1 class="text-5xl max-sm:text-4xl text-center text-white font-amatic-sc">Countdown for Live Festival</h1>
+      <p class="mt-6 text-xl max-sm:text-lg text-center text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi itaque et illo rem aspernatur, culpa quaerat omnis quidem illum voluptas fugiat sunt cumque, dolorum incidunt!</p>
+      <div class="grid grid-cols-4 gap-4 text-white text-center text-3xl max-md:text-xl max-lg:text-2xl w-7/12 max-sm:w-11/12 m-auto font-rajdhni-sans cursor-pointer mt-8 animate-pulse">
+        <div class="border-2 p-4">
+          <span class="timeDays block">00</span>
+          <span class="block">Days</span>
+        </div>
+        <div class="border-2 p-4">
+          <span class="timeHours block">00</span>
+          <span class="block">Hours</span>
+        </div>
+        <div class="border-2 p-4">
+          <span class="timeMinuts block">00</span> 
+          <span class="block sp">Minuts</span>
+        </div>
+        <div class="border-2 pt-4">
+          <span class="timeSeconds block">00</span>
+          <span class="block">Seconds</span>
+        </div>
+      </div>
 
+    </section>
+  </main> 
   <script src="src/js/main.js"></script>
 </body>
 </html>

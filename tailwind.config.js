@@ -5,8 +5,16 @@ export default {
     "./src/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto-mono': ['Roboto Mono', 'monospace'],
+        'amatic-sc': ['Amatic SC', 'cursive'],
+        'rajdhni-sans': ['Rajdhani', 'sans-serif'],
+      },
+      colors: {
+        'bage-green': '#C5AA65',
+      }, 
+    },
   },
   plugins: [],
 }
-
