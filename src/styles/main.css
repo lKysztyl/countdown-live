@@ -4,4 +4,8 @@
 
 body {
     background-image: url(../assets/img/meteora-lg.png);
+
+    @media (max-width: 887px) {
+        background-image: url(../assets/img/meteora-sm.jpg);
+    }
 }
